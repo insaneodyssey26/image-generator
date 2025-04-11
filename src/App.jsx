@@ -13,8 +13,8 @@ function App() {
         <main>
           <ImageGenerator />
         </main>
-        <footer className="app-footer">
-          <p>© 2024 AI Image Generator. All rights reserved.</p>
+        <footer className="footer">
+          <p>Made by <a href="https://www.linkedin.com/in/masumali26" target="_blank" rel="noopener noreferrer">Masum</a> :)</p>
         </footer>
       </div>
     </div>
