@@ -46,7 +46,7 @@ const ImageGenerator = () => {
         setCurrentImageIndex(updatedImages.length - 1);
         return updatedImages;
       });
-      setGenerationProgress(100); // Complete the progress
+      setGenerationProgress(100); 
     } catch (err) {
       console.error('Error generating image:', err);
       if (err.response?.status === 403) {
@@ -60,7 +60,6 @@ const ImageGenerator = () => {
         );
       }
     } finally {
-      // Add a small delay before hiding the loading state to show 100% progress
       setTimeout(() => {
         setLoading(false);
         setIsGenerating(false);
